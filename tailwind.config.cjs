@@ -5,7 +5,7 @@ module.exports = {
       extend: {
         colors: {
           purp: "#7f0799",
-          yello: "#fec81f",
+          yello: "#D38200",
         },
       },
     },

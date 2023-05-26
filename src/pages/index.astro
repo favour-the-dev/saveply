@@ -2,11 +2,21 @@
 import Layout from '../Layout/Layout.astro';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import Neo from '../components/Neo-brut';
+import Features from '../components/Features';
+import Simply from '../components/simply';
+import WhyChoose from '../components/Whychoose';
+import Footer from '../components/Footer';
 ---
 
 <Layout>
 	<Navbar />
 	<Hero />
+	<Neo />
+	<Features />
+	<Simply />
+	<WhyChoose client:load/>
+	<Footer />
 </Layout>
 
 <style>

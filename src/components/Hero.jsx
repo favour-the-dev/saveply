@@ -7,7 +7,7 @@ const Hero = ()=>{
             <div className='p-5 lg:px-20 w-screen lg:h-screen flex flex-col items-center justify-center'>
                 <div className='flex flex-col md:flex-row items-center justify-between'>
                     <div className='flex flex-col md:w-1/2'>
-                        <div className='font-bold text-5xl my-4'>
+                        <div className='font-bold text-5xl lg:text-6xl my-4'>
                             <h2 className='w-2/3'>Join the Savings</h2>
                             <h2 className='text-purp'>Revolution!</h2>
                         </div>
@@ -17,8 +17,9 @@ const Hero = ()=>{
                         </div>
                         <h3 className='text-purp capitalize font-bold text-3xl my-6'>Join Our Waitlist </h3>
                         <form action="/" className='border-2 border-purp w-fit flex gap-1 rounded-lg'>
-                            <input type="text" placeholder='Enter Email to join waitlist' className='p-4 focus:outline-none'/>
-                            <button className='bg-purp text-sm lg:text-base text-white px-4 m-1 rounded-lg'>Join Waitlist</button>
+                            <input type="text" placeholder='Enter Email to join waitlist' className='p-2 py-4 sm:p-4 
+                            focus:outline-none text-sm sm:text-base'/>
+                            <button className='bg-purp hover:bg-[#9A208C] text-sm lg:text-base text-white px-4 m-1 rounded-lg'>Join Waitlist</button>
                         </form>
                     </div>
                     <div className='hidden md:block md:w-1/2 lg:text-center'>
