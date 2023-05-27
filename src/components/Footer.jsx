@@ -14,10 +14,18 @@ export default function Footer(){
                         <div className='mb-4'>
                             <p className='font-bold text-2xl mb-2'>SAVEPLY</p>
                             <div className='flex items-center gap-4'>
-                                <i className='rounded-lg w-8 hover:translate-y-1 duration-200 ease-in-out shadow-md p-2'><img src={twitter} alt="" /></i>
-                                <i className='rounded-lg w-8 hover:translate-y-1 duration-200 ease-in-out shadow-md p-2'><img src={insta} alt="" /></i>
-                                <i className='rounded-lg w-8 hover:translate-y-1 duration-200 ease-in-out shadow-md p-2'><img src={lnk} alt="" /></i>
-                                <i className='rounded-lg w-8 hover:translate-y-1 duration-200 ease-in-out shadow-md p-2'><img src={fb} alt="" /></i>
+                                <a href="https://twitter.com/saveplyafrica?t=bATMrkhX3MIKUOkfYfYNTg&s=09" target='blank_'>
+                                    <i className='rounded-lg w-8 hover:translate-y-1 duration-200 ease-in-out shadow-md p-2'><img src={twitter} alt="" /></i>
+                                </a>
+                                <a href="https://www.instagram.com/saveply.ng/" target='blank_'>
+                                    <i className='rounded-lg w-8 hover:translate-y-1 duration-200 ease-in-out shadow-md p-2'><img src={insta} alt="" /></i>
+                                </a>
+                                <a href="https://www.linkedin.com/company/saveply/" target='blank_'>
+                                    <i className='rounded-lg w-8 hover:translate-y-1 duration-200 ease-in-out shadow-md p-2'><img src={lnk} alt="" /></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100089687713444&mibextid=ZbWKwL" target='blank_'>
+                                    <i className='rounded-lg w-8 hover:translate-y-1 duration-200 ease-in-out shadow-md p-2'><img src={fb} alt="" /></i>
+                                </a>
                             </div>
                         </div>
                         <div>

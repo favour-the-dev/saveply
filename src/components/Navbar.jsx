@@ -6,6 +6,8 @@ export default function Navbar(){
     function handleScroll(){
         if(window.scrollY > 0){
             setShadow('shadow-lg');
+        }else{
+            setShadow('')
         }
     }
     useEffect(()=>{
@@ -17,10 +19,10 @@ export default function Navbar(){
     })
     return(
         <>
-            <div className={`w-screen bg-purp sticky top-[0px] z-40 text-white p-5 lg:px-20 ${shadow}`}>
+            <div className={`w-screen bg-purp sticky top-[-1px] z-40 text-white p-5 lg:px-20 ${shadow}`}>
                 <div className='flex items-center justify-between'>
-                    <div className='flex items-center text-sm md:text-base font-semibold gap-1 uppercase cursor-pointer'><img src={logo} alt="our-log" className='w-6 md:w-8'/>Saveply</div>
-                    <a href="/"><button className='bg-white text-purp font-medium capitalize py-1 px-4 rounded-sm text-xs md:text-base hover:bg-[#FFFFDF]'>Join waitlist</button></a>
+                    <div className='flex items-center text-base font-semibold gap-1 uppercase cursor-pointer'><img src={logo} alt="our-log" className='w-8'/>Saveply</div>
+                    <a href="/"><button className='bg-white text-purp font-medium capitalize py-1 px-4 rounded-sm text-sm md:text-base hover:bg-[#FFFFDF]'>Join waitlist</button></a>
                 </div>
             </div>
         </>
