@@ -4,8 +4,6 @@ import img3 from '../assets/images/whychoose3.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-{/* <a href="https://www.freepik.com/free-vector/files-sent-concept-illustration_11121750.htm#query=easy%20and%20convenient%20illustration&position=4&from_view=search&track=ais">Image by storyset</a> */}
-{/* <a href="https://www.freepik.com/free-vector/skilled-nurse-elderly-people-getting-around-clock-nursing-care-nursing-home-nursing-residential-care-physical-therapy-service-concept-bright-vibrant-violet-isolated-illustration_10780630.htm#query=young%20and%20old%20illustration%20purple&position=4&from_view=search&track=ais">Image by vectorjuice</a> on Freepik */}
 
 export default function WhyChoose(){
     return(
@@ -38,7 +36,9 @@ export default function WhyChoose(){
                                 At SAVEPLY, we understand the value of convenience in managing your finances. That's why we have designed our platform to make it easy for you to save and track your progress towards your financial goals.
                                 </p>
                             </div>
-                            <div className='w-1/2'><img src={img2} alt="" className='mx-auto w-full md:w-2/3'/></div>
+                            <div className='w-1/2'>
+                            <a href="https://www.freepik.com/free-vector/files-sent-concept-illustration_11121750.htm#query=easy%20and%20convenient%20illustration&position=4&from_view=search&track=ais"><img src={img2} alt="" className='mx-auto w-full md:w-2/3'/></a>
+                            </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -49,7 +49,9 @@ export default function WhyChoose(){
                                 SAVEPLY caters for every demographic of the African population by providing our services both offline and online thereby representing everyone from the Tech-savvy Tech-bro to Luddite market woman.
                                 </p>
                             </div>
-                            <div className='w-1/2'><img src={img3} alt="" className='mx-auto w-full'/></div>
+                            <div className='w-1/2'>
+                            <a href="https://www.freepik.com/free-vector/skilled-nurse-elderly-people-getting-around-clock-nursing-care-nursing-home-nursing-residential-care-physical-therapy-service-concept-bright-vibrant-violet-isolated-illustration_10780630.htm#query=young%20and%20old%20illustration%20purple&position=4&from_view=search&track=ais"><img src={img3} alt="" className='mx-auto w-full'/></a>
+                            </div>
                         </div>
                     </SwiperSlide>
                     </Swiper>
